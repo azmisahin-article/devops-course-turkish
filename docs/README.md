@@ -1,157 +1,333 @@
-# ![Logo](media/favicon.png)
+# DevOps Süreçleri
 
-# Project architecture document.
+## Azmi ŞAHİN
 
-- Review the [Architecture Diagram](architecture/README.md).
-- Folder design information of the application.
+# Amaç
 
-```
-.
-+-- build                           '	Executable version of the project.
-+-- docs						    '	Project, documents.
-+-- reports                         '	Project, coverage, test, screen.
-|   +-- coverage                    '	Project, coverage web content
-|   |   ?-- index.html              '	Project, coverage report static file
-|   +-- document                    '	Project, document web content.
-|   |   ?-- index.html              '	Project, document report static file
-|   +-- tests                       '	Project, test and coverage result.
-|   |   +-- cobertura-coverage.xml  '	Project, coverage result.
-|   |   +-- junit.xml               '	Project, Unit test result.
-|   +-- screen                      '	Project, e2e screens.
-+-- src							    '	Project resource files.
-|   ?-- api					        '	In-app services.
-|   ?-- assets			            '	Design assets.
-|   ?-- controllers	                '	The parts that separate the business logic of the application and the user interface.
-|   ?-- core					    '	Application core.
-|   ?-- models					    '	View objects that separate the Controller From the user interface.
-|   ?-- views					    '	The area users view with models.
-+-- tests                           '	Project testing.
-|   +-- e2e						    '	End-to-end test.
-|   +-- unit					    '	Unit test.
-|   +-- integration                 '	Integration testing.
-+-- .editor.config                  '	Developers will use these code indents and styles in their IDEs.
-+-- .env                            '	each env. the file holds or separates the development environment definitions.
-+-- docker-compose.yml              '	each .yml file holds or separates runtime definitions.
-+-- dockerfile                      '	each docker file prepares the runtime launcher image.
+Bu kursun amacı, katılımcılara güçlü bir anlayış ile DevOps süreçlerini anlamalarını ve uygulamalarını sağlamaktır. Katılımcılar, kurs sonunda aşağıdaki hedefleri başarmış olacaklar:
 
-```
+- DevOps süreçlerinin ne olduğunu ve neden önemli olduğunu anlamak.
+- Proje yönetimi ve yazılım geliştirme standartları hakkında bilgi sahibi olmak.
+- Sürüm kontrolü ve Git'in nasıl kullanılacağını öğrenmek.
+- Sanallaştırma ve konteynerizasyonun avantajlarını kavramak.
+- Bulut bilişim ve sürekli entegrasyon konularında bilgiye sahip olmak.
+- Teknolojik altyapı yönetimi ve güvenlik prensiplerini anlamak.
+- İzleme, analiz, geri bildirim ve optimizasyonun önemini kavramak.
+- Veri yedekleme, mimari senaryolar ve güvenlik planlaması hakkında bilgi sahibi olmak.
 
-# Project development architecture
+# Kazanımlar
 
-```
-tests:?
-testsResult:?
-coverage:?
-document:?
-pretier:?
-linter:?
-stage:?
-version:?
-environment:?
-```
+Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar için sağlam bir temel oluştururken, DevOps alanında uzmanlık kazanmak isteyenler için derin bir anlayışa sahip olacaklar. Kurs sonunda katılımcılar, projeleri yönetme, yazılım geliştirme standartlarına uygunluk sağlama, sürüm kontrolü yapma, sanallaştırma ve konteynerizasyonu anlama, bulut bilişimi kullanma ve uygulama ve altyapı izleme konularında derin bir anlayış ile yetkinlik kazanacaklar.
 
-## Environment
+# İçerik
 
-```
-.env
-.env.production
-.env.development
-.env.test
-```
+## Modül 1: DevOps Süreçleri - Ölçeklenebilirlik ve Dönüşüm
 
-## Project Install
+- DevOps Süreçleri Anlama
+  - DevOps Nedir?
+  - DevOps'un Faydaları!
+  - DevOps Süreçleri
+  - DevOps İşletim Bilgisi
+- DevOps Ölçeklenebilirlik
+  - İş Süreçleri ve Ekip Ölçeklenebilirliği
+  - Altyapı ölçeklenebilirliği
+  - Uygulama Ölçeklenebilirliği
+  - Veritabanı Ölçeklenebilirliği
+- DevOps Dönüşüm Yolculuğu
+  - Kademeli Dönüşüm
+  - Üst Yönetim Desteği
+  - Zaman çizelgeleri
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-Install detail
+## Modul 2 : Proje Yönetimi
 
-```shell
-$ install
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_INSTALL
-```
+- İş Akışı Yönetimi
+  - İş Akışı Yönetimi ve Süreç Otomasyonu
+  - Dijital İş Akışı
+  - BPM ve RPA
+- Ekip İşbirliği ve İletişim
+  - Confluence
+- Proje Yönetimi - Süreçler ve Araçlar
+  - Jira
+  - Azure DevOps
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-### Test / Development / Production
+## Modul 3 : Sürüm Kontrolü - Barındırma ve Git
 
-Start Linter
+- Git Barındırma - Yerel ve Bulut
+  - GitHub
+  - Azure DevOps / Server
+  - Bitbucket
+  - Gitlab / Server
+- Git
+  - Git - Dağıtık Sürüm Kontrolü
+  - Git - Yapılandırma
+  - Git – Temelleri
+- Git Flow - Sürüm Disiplini
+  - Git Sürüm Kontrol - Git Flow
+  - Git Sürüm Kontrol - Git Flow Yapılandırma
+  - Git Sürüm Kontrol - Dal Yönetimi
+- Git Fork
+  - Proje Forklama
+  - Pull Talebi
+  - Talep İnceleme ve Onay
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_LINTER
-```
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-Start Prettier
+## Modul 4 : Yazılım Geliştirme Standartları
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_PRETTIER
-```
+- Hızlı İterasyonunu Anlama
+  - Hızlı iterasyon özellikleri
+  - Yazılım Geliştirme Standartları
+  - Yazılım Geliştirme iterasyonunu destekleyen araçlar
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-Start Test and Generate test report
+## Modul 5 : İşletim Sistemi Yönetimi
 
-xml [ ./reports/tests/junit.xml ]
+- Windows İşletim Sistemi
+  - Visual Studio Code
+  - Windows Powershell Komutları
+  - Windows Powershell Komutları - Ağ Yapılandırması
+  - Hyper-V Sanallaştırma - Temeller ve Kullanım
+  - IIS - Windows Tabanlı Web Hizmetleri
+- Linux İşletim Sistemi
+  - Nano
+  - Linux Terminal Komutları
+  - Linux Terminal Komutları - Ağ Yapılandırması
+  - SSH Anahtarları ve OpenSSH
+  - Linux Güvenlik Duvarı
+  - Apache HTTP Server
+  - Tomcat - Java Web Uygulamaları
+  - Nginx
+  - Nginx - Linux Proxy Sunucu
+  - Nginx - Linux Yük Dengeleme
+  - Redis - Linux Veri Önbellekleme
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_TEST
-```
+## Modul 6 : Sanallaştırma - Hipervizör ve Konteyner
 
-Start Coverage and Generate coverage report
+- Sanallaştırma - Hipervizör
+  - Tip 1 (Bare-Metal) Hipervizör - VMware ESXi
+  - Tip 1 (Bare-Metal) Hipervizör - Microsoft Hyper-V Server
+  - Tip 2 (Hosted) Hipervizör - VMware Workstation
+  - Tip 2 (Hosted) Hipervizör - Oracle VirtualBox
+- Sanallaştırma - Konteyner
+  - LXC - ?
+  - Docker – Kurulum
+  - Docker – Dockerfile
+  - Docker – Komutlar
+  - Docker – Container
+  - Docker – Images
+  - Docker - Registery - Docker Hub
+  - Docker – Volume
+  - Docker - Registery – Distribution
+- Sanallaştırma - Konteyner - Yönetim
+  - Docker Compose
+  - Docker Swarm
+  - Kubernetes
+- Sanallaştırma - Konteyner - Uygulama Senaryoları
+  - Docker - Uygulama Senaryosu
+  - Docker Compose - Uygulama Senaryosu
+  - Docker Swarm - Uygulama Senaryosu
+  - Kubernetes - Uygulama Senaryosu
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-html [ ./reports/coverage ]
+## Modul 7 : Bulut Bilişim
 
-xml [ ./reports/test/cobertura-coverage.xml ]
+- Bulut Bilişim - Dağıtım Modelleri
+  - Özel Bulut (Private Cloud)
+  - Halka Açık Bulut (Public Cloud)
+  - Karma Bulut (Hybrid Cloud)
+  - Topluluk Bulut (Community Cloud)
+- Bulut Bilişim - Hizmet Modelleri
+  - Hizmet Olarak Altyapı (IaaS)
+  - Hizmet Olarak Platform (PaaS)
+  - Hizmet Olarak Yazılım (SaaS)
+  - Hizmet Olarak İşlev (FaaS)
+- Bulut Bilişim - Sağlayıcılar
+  - Amazon AWS
+  - Google Cloud Platform
+  - Microsoft Azure
+- Bulut Bilişim - Sertifikasyonlar
+  - AWS Certified
+  - Microsoft Certified
+  - Google Cloud Certified
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_COVERAGE
-```
+## Modul 8 : Sürekli Entegrasyon - Yöntemler ve Yaklaşımlar
 
-Generate Document
+- Sürekli Entegrasyon
+  - Sürekli Entegrasyon Nedir? Neden Önemlidir?
+  - Otomasyon ve Sık Entegrasyonun Avantajları
+  - Etkili Sürekli Entegrasyon Stratejileri
+  - Sürekli Entegrasyon ve İş Akışları
+- Sürekli Teslimat
+  - Sürekli Teslimat Kavramı ve Faydaları
+  - Yazılımın Sürekli Olarak Test Edilip Hazır Hale Getirilmesi
+  - Sürekli Teslimat Stratejileri ve Uygulama Adımları
+  - Sürekli Teslimat ve İş Akışları
+- Sürekli Dağıtım
+  - Sürekli Dağıtımın Sürekli Teslimattan Farkı ve Önemi
+  - Canlı Ortama Otomatik Yayın Yapmanın Riskleri ve İyileştirmeler
+  - Sürekli Dağıtım Kullanım Senaryoları ve Kazanımları
+  - Sürekli Dağıtım ve İş Akışları
+- Otomasyon Araçları ve İş Akışları Uygulama
+  - Jenksin
+  - GitLab
+  - GitHub Actions
+  - Azure DevOps
+  - CircleCI
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-html [ ./reports/document ]
+## Modul 9 : DevOps Altyapı Yönetimi
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_DOCUMENT
-```
+- Alt Yapı Yönetimi - Anlama ve Planlama
+  - Alt Yapı Yönetimi - ?
+  - Mevcut Altyapı Topolojisi Analizi
+  - Bulut Hizmetleri ve Fiziksel Sunucuların Karşılaştırılması
+  - En İdeal Kullanım Senaryolarının Belirlenmesi
+- Altyapı Otomasyonu ve Kodlama
+  - Altyapı Otomasyonunun Temel Kavramları
+  - Otomasyonun Faydaları ve Önemi
+  - Altyapı Otomasyonunun Uygulama Alanları
+  - Kodlama Betikleri ve Kullanım Alanları
+- Altyapı Yönetimi Araçları
+  - Tanıtım ve Karşılaştırma
+  - Terraform ile Altyapı Yönetimi
+  - Ansible ile Otomasyon ve Konfigürasyon Yönetimi
+  - Chef ve Puppet ile Yapılandırma Yönetimi
+  - SaltStack ile Otomasyon ve İzleme
+  - Pulumi ile Altyapı Yönetimini Kodlama
+- Sürekli Dağıtım ve Entegrasyon
+  - Altyapı Yönetim Araçlarını Entegre Etme
+  - Sürekli Dağıtım Araçlarının Yapılandırılması ve Kullanımı
+  - Altyapı Değişikliklerinin Sürekli Dağıtım ile Yönetimi
+- Otomasyon ve İzleme
+  - Otomasyonun İzlenmesi ve Denetlenmesi
+  - Hataların Otomatik Tespiti ve Çözümü
+  - Verimlilik ve Güvenilirlik İçin İzleme Stratejileri
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-Build
+## Modul 10 : Veri İzleme ve Analiz
 
-binary [ ./build ]
+- Temel Kavramlar
+  - Veri Analizi Teknikleri ve Araçları
+  - Veri Toplama ve İzleme Araçları
+  - Veri Odaklı Süreç Geliştirme
+- Uygulama İzleme - Performas ve Hata Analizi
+  - New Relic
+  - Netdata
+  - Azure Application Insights
+  - Sentry
+  - LogRocket
+  - Rollbar
+  - Google Analytics
+  - Hotjar
+  - SpeedCurve
+- Günlük ve Metrik İzleme - Veri Toplama ve Depolama
+  - Elasticsearch
+  - Logstash
+  - Fluentd
+  - InfluxDB
+- Günlük ve Metrik İzleme - Ağ ve Altyapı İzleme
+  - Nagios
+  - Zabbix
+  - uptime-kuma
+  - UptimeRobot
+  - PRTG Network Monitor
+- Günlük ve Metrik İzleme - Dağıtık İzleme
+  - Prometheus
+  - Jaeger
+  - Zipkin
+- Günlük ve Metrik İzleme - Veri Görselleştirme ve Analiz
+  - Grafana
+  - Kibana
+  - Graylog
+  - Power BI
+- Günlük ve Metrik İzleme - Bulut Tabanlı İzleme
+  - Signoz
+  - Datadog APM
+  - Azure Monitor
+  - Google Cloud Monitoring
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_BUILD
-```
+## Modul 11 : Geribildirim - Optimizasyon
 
-Start
+- Geri Bildirim DevOps'ta Nasıl İşler
+- Optimizasyon DevOps'ta Nasıl İşler
+- Geribildirim Yönetim Araçları
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```shell
-▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ $CMD_START
-```
+Modul 12 : Güvenlik
 
-## Docker Install
+- Güvenlik Tasarımı
+- Sürekli Güvenlik Değerlendirme
+- Yetkilendirme ve Erişim Kontrolü
+- Güvenlik Otomasyonu
+- İzleme ve Tehdit istihbaratı
+- Gizli Bilgi Yönetimi
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```
-development : dockerfile.development
-production  : dockerfile.production
-test        : dockerfile.test
-```
+Modul 13 : Veri Yedekleme ve Kurtarma
 
-### Docker Development
+- Kurtarma Planı
+- İzlenebilirlik
+- Veri Yedekleme
+- Dağıtık Depolama
+- Otomasyon
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
 
-```docker
-docker-compose -f "docker-compose-development.yml" up -d --build
-```
+## Modul 14 : Mimari ve Senaryolar
 
-### Docker Production
-
-```docker
-docker-compose -f "docker-compose-production.yml" up -d --build
-```
-
-### Docker Test
-
-```docker
-docker-compose -f "docker-compose-test.yml" up -d --build
-```
+- Monolitik
+- Mikro Hizmetler
+- Sanal Makine
+- Konteynerleştirme
+- Bulut Bilişim
+- GitOps
+- Dağıtık Sistemler
+- Olaylarla Tetikleme
+- ChatOps
+- _Materyaller_
+  - _Yardımcı Kaynak_
+  - _Araştırma Görevi_
+  - _Alıştırma Soruları_
