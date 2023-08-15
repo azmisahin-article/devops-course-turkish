@@ -1,0 +1,10 @@
+#
+# This is the config file, and
+# a '#' or ';' character indicates
+# a comment
+#
+# https://git-scm.com/docs/git-config
+
+; commit
+[commit]
+    template = ~/.gitmessage

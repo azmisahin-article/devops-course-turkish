@@ -1,0 +1,93 @@
+# !version: 0.1.0
+# <type>: <subject> (Max 50 char, Why is this change necessary?)
+# |<----  Using a Maximum Of 50 Characters  ---->|
+
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# Explain how the commit addresses the issue
+# --- COMMIT END ---
+
+# Our, commit message standart:
+# Conventional Commits
+# Separate subject from body with a blank line
+# Limit the subject line to 50 characters
+# Do not end the subject line with a period
+# Wrap the body at 72 characters
+# Use the body to explain what and why vs. how
+
+# example with type icon
+
+# ✨: meet standards for git processing messages
+#
+# refs [#0]
+
+# example with type
+
+# feature: meet standards for git processing messages
+#
+# refs: [#0], [REF-0]
+
+# example type
+
+# feature: meet standards for git processing messages [#0]
+
+# <type>: <subject>
+# ✨: a new feature
+# 🐛: a bug fix
+# 📝: documentation only changes
+# 💄: changes that do not affect meaning of code
+# ♻️: a code change that neither fixes a bug or adds a feature
+# ⚡️: a code change that improves performance
+# ✅: adding missing test
+# 🚑: a critical bug fix
+
+# <type>: <subject> additional  tag
+# 🚧: work in progress
+# 🎨: improving structure / format
+# 🏗: making architectural changes
+# 🔀: merging branches
+# 🔥: removing code or files
+# 🔊: adding logs
+# 🔇: removing logs
+# ➕: adding a dependency
+# ➖: removing a dependency
+# ⬆️: upgrading dependencies
+# ⬇️: downgrading dependencies
+# 📦: updating compiled files or packages
+# 🚀: deploying stuff
+# 🔒: fixing security issues
+# 🔖: releasing / version tags
+# 🎉: initial commit
+# 🚨: removing linter warnings
+# 💚: fixing CI Build
+# 📌: pinning dependencies to specific versions
+# 👷: adding CI build system
+# 📈: adding analytics or tracking code
+# 🐳: work about Docker
+# 🔧: changing configuration files
+# 🌐: internationalization and localization
+# ✏️: fixing typos
+# 💩: writing bad code that needs to be improved
+# ⏪: reverting changes
+# 👽: updating code due to external API changes
+# 🚚: moving or renaming files
+# 📄: adding or updating license
+# 💥: introducing breaking changes
+# 🍱: adding or updating assets
+# 👌: updating code due to code review changes
+# ♿️: improving accessibility
+# 💡: documenting source code
+# 🍻: writing code drunkenly
+# 💬: updating text and literals
+# 🗃: performing database related changes
+# 👥: adding contributor(s)
+# 🚸: improving user experience / usability
+# 📱: working on responsive design
+# 🍎: fixing something on macOS
+# 🐧: fixing something on Linux
+# 🏁: fixing something on Windows
+# 🤖: fixing something on Android
+# 🍏: fixing something on iOS
+# 🤡: mocking things
+# 🥚: adding an easter egg
+# 🙈: adding or updating a .gitignore file
+# 📸: adding or updating snapshots

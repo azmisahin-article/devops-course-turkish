@@ -1,0 +1,35 @@
+#   EditorConfig
+#	--------------------------------------------------
+#	Getting started with consistent coding styles.
+#   Developers will use these code indents and styles in their IDEs.
+#	@see                            :   https://editorconfig.org/
+
+#	IDE EXTENSION
+#	--------------------------------------------------
+#	Visual Studio Code				:	https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+#	Editor Config                   :	https://github.com/editorconfig/editorconfig-vscode
+
+#   It does not apply top level settings.
+root = true
+
+#   It is planned to be used in all file types.
+[*]
+indent_style = space
+
+#   Use 2 spaces in the recesses.
+indent_size = 2
+
+#   Tab widths use 2 spaces.
+tab_width = 2
+
+#   ASC 10 "\" must be used to move to the next line.
+end_of_line = lf
+
+#   Files and their contents should be saved in accordance with utf-8 format.
+charset = utf-8
+
+#   There should be no spaces at the end of the lines.
+trim_trailing_whitespace = true
+
+#   Files must end with a new line during recording.
+insert_final_newline = true
