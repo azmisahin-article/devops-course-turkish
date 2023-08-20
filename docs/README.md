@@ -37,10 +37,6 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Kademeli Dönüşüm
   - Üst Yönetim Desteği
   - Zaman çizelgeleri
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
 ## Modul 2 : Proje Yönetimi
 
@@ -53,10 +49,6 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
 - Proje Yönetimi - Süreçler ve Araçlar
   - Jira
   - Azure DevOps
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
 ## Modul 3 : Sürüm Kontrolü - Barındırma ve Git
 
@@ -78,21 +70,11 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Pull Talebi
   - Talep İnceleme ve Onay
 
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
-
 ## Modul 4 : Yazılım Geliştirme Standartları
 
 - Hızlı İterasyonunu Anlama
-  - Hızlı iterasyon özellikleri
-  - Yazılım Geliştirme Standartları
-  - Yazılım Geliştirme iterasyonunu destekleyen araçlar
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
+- Yazılım Geliştirme Standartları
+- Yazılım Geliştirme iterasyonunu destekleyen araçlar
 
 ## Modul 5 : İşletim Sistemi Yönetimi
 
@@ -114,10 +96,6 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Nginx - Linux Proxy Sunucu
   - Nginx - Linux Yük Dengeleme
   - Redis - Linux Veri Önbellekleme
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
 ## Modul 6 : Sanallaştırma - Hipervizör ve Konteyner
 
@@ -145,10 +123,10 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Docker Compose - Uygulama Senaryosu
   - Docker Swarm - Uygulama Senaryosu
   - Kubernetes - Uygulama Senaryosu
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
+- Sanallaştırma - Konteyner - Yönetim - Bulut Bilişim
+  - Amazon ECS
+  - Google Kubernetes Engine
+  - Microsoft Azure Kubernetes Service
 
 ## Modul 7 : Bulut Bilişim
 
@@ -170,10 +148,6 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - AWS Certified
   - Microsoft Certified
   - Google Cloud Certified
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
 ## Modul 8 : Sürekli Entegrasyon - Yöntemler ve Yaklaşımlar
 
@@ -198,12 +172,8 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - GitHub Actions
   - Azure DevOps
   - CircleCI
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
-## Modul 9 : DevOps Altyapı Yönetimi
+## Modul 9 : DevOps Alt Yapı Yönetimi
 
 - Alt Yapı Yönetimi - Anlama ve Planlama
   - Alt Yapı Yönetimi - ?
@@ -230,14 +200,10 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Otomasyonun İzlenmesi ve Denetlenmesi
   - Hataların Otomatik Tespiti ve Çözümü
   - Verimlilik ve Güvenilirlik İçin İzleme Stratejileri
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
 
 ## Modul 10 : Veri İzleme ve Analiz
 
-- Temel Kavramlar
+- Veri Analizi Temel Kavramlar
   - Veri Analizi Teknikleri ve Araçları
   - Veri Toplama ve İzleme Araçları
   - Veri Odaklı Süreç Geliştirme
@@ -261,7 +227,6 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Zabbix
   - uptime-kuma
   - UptimeRobot
-  - PRTG Network Monitor
 - Günlük ve Metrik İzleme - Dağıtık İzleme
   - Prometheus
   - Jaeger
@@ -270,64 +235,12 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Grafana
   - Kibana
   - Graylog
-  - Power BI
 - Günlük ve Metrik İzleme - Bulut Tabanlı İzleme
   - Signoz
   - Datadog APM
   - Azure Monitor
   - Google Cloud Monitoring
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
+  - Amazon CloudWatch
 
-## Modul 11 : Geribildirim - Optimizasyon
-
-- Geri Bildirim DevOps'ta Nasıl İşler
-- Optimizasyon DevOps'ta Nasıl İşler
-- Geribildirim Yönetim Araçları
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
-
-Modul 12 : Güvenlik
-
-- Güvenlik Tasarımı
-- Sürekli Güvenlik Değerlendirme
-- Yetkilendirme ve Erişim Kontrolü
-- Güvenlik Otomasyonu
-- İzleme ve Tehdit istihbaratı
-- Gizli Bilgi Yönetimi
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
-
-Modul 13 : Veri Yedekleme ve Kurtarma
-
-- Kurtarma Planı
-- İzlenebilirlik
-- Veri Yedekleme
-- Dağıtık Depolama
-- Otomasyon
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
-
-## Modul 14 : Mimari ve Senaryolar
-
-- Monolitik
-- Mikro Hizmetler
-- Sanal Makine
-- Konteynerleştirme
-- Bulut Bilişim
-- GitOps
-- Dağıtık Sistemler
-- Olaylarla Tetikleme
-- ChatOps
-- _Materyaller_
-  - _Yardımcı Kaynak_
-  - _Araştırma Görevi_
-  - _Alıştırma Soruları_
+| _Azmi ŞAHİN_ | _https://www.linkedin.com/in/azmisahin_ |
+| --- | --- |
