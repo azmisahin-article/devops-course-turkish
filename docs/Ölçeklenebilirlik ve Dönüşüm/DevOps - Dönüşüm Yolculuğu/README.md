@@ -1,3 +1,5 @@
+# DevOps - Dönüşüm Yolculuğu
+
 **Kademeli Dönüşüm:**
 Bir *tırtılın kelebek oluşumu* gibi, kademeli dönüşüm yazılım geliştirme süreçlerindeki bir yaklaşımı ifade eder. Tırtıl, önce *kendi içinde dönüşmeye başla*r; yavaş yavaş *eski halini bırak*arak *yeni bir forma bürün*ür. Kademeli dönüşüm, yazılım projelerinde büyük bir değişikliğin hemen uygulanması yerine, aşamalı olarak yeni yöntemlere ve *süreçler*e geçişi tanımlar. Bu, ekiplerin yeni pratiklere alışması ve olası sorunların daha küçük çapta çözülmesine yardımcı olur.
 
