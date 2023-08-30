@@ -1,6 +1,26 @@
 # Geliştirme Iterasyonunu Destkleyen Araçlar
 
-Hızlı Geliştirme Döngüsünü destekleyen araçların genel bir görüntüsü.
+**Otomasyon, doğrulama, takım işbirliği ve izleme gibi farklı alanları destekleyen araçlar.**
+
+- Versiyon Kontrol Sistemleri
+- Sürüm Yönetimi Araçları
+- Kod İnceleme Araçları
+- Kod Analiz Araçları
+- Belge Üretim Araçları
+- Test Otomasyon Araçları
+- UML Araçları:
+- Kod Denetim Araçları
+
+**DevOps sürecinde yazılım geliştirme iterasyonunu destekleyen araçlar.**
+
+- Sürekli Entegrasyon ve Sürekli Dağıtım (CI/CD) Araçları
+- Konfigürasyon Yönetimi Araçları
+- Altyapı Otomasyon Araçları
+- Kod İnceleme ve Kod Kalitesi Araçları
+- Test Otomasyon Araçları
+- İzleme ve Loglama Araçları
+
+**Yazılım Geliştirme iterasyonunu destekleyen En Temel Araçlar.**
 
 | Kod Kalitesi ve Güvenlik Araçları | Test Otomasyon Araçları | API Test ve Dokümantasyon Araçları | Performans Test Araçları | Yapı ve Geliştirme Araçları | Paket Yönetimi ve Dağıtım Araçları | Dokümantasyon ve Diyagram Araçları |
 | --- | --- | --- | --- | --- | --- | --- |
