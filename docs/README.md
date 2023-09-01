@@ -1,39 +1,45 @@
-# DevOps Süreçleri
+# DevOps Yolculuğu
 
-## Azmi ŞAHİN
+Teknolojinin hızla geliştiği ve iş dünyasının her zamankinden daha rekabetçi hale geldiği bu dönemde, organizasyonlar için başarı ve sürdürülebilirlik, hızlı ve etkili bir şekilde yenilik yapma yeteneğine dayanmaktadır. İşte tam da bu noktada, DevOps'un değeri parlıyor. DevOps, geliştirme (Development) ve işletme (Operations) ekiplerini bir araya getirerek, yazılım üretim sürecini hızlandırmak, sorunları hızlıca çözmek ve iş sürekliliğini artırmak için bir dizi pratik, kültürel ve otomasyon yöntemlerini birleştiren bir yaklaşımdır.
+
+Bu yolculukta, organizasyonlar sadece teknolojik olarak daha yetkin hale gelmekle kalmaz, aynı zamanda daha esnek, yenilikçi ve müşteri odaklı olma fırsatını yakalarlar.
+
+"DevOps, henüz bedeni oluşmamış yapay zekanın omurgasıdır."
 
 # Amaç
 
 Bu kursun amacı, katılımcılara güçlü bir anlayış ile DevOps süreçlerini anlamalarını ve uygulamalarını sağlamaktır. Katılımcılar, kurs sonunda aşağıdaki hedefleri başarmış olacaklar:
 
 - DevOps süreçlerinin ne olduğunu ve neden önemli olduğunu anlamak.
-- Proje yönetimi ve yazılım geliştirme standartları hakkında bilgi sahibi olmak.
+- Proje yönetimi ve iş süreçleri konusunda bilgi sahibi olmak.
 - Sürüm kontrolü ve Git'in nasıl kullanılacağını öğrenmek.
-- Sanallaştırma ve konteynerizasyonun avantajlarını kavramak.
-- Bulut bilişim ve sürekli entegrasyon konularında bilgiye sahip olmak.
-- Teknolojik altyapı yönetimi ve güvenlik prensiplerini anlamak.
-- İzleme, analiz, geri bildirim ve optimizasyonun önemini kavramak.
-- Veri yedekleme, mimari senaryolar ve güvenlik planlaması hakkında bilgi sahibi olmak.
+- Yazılım Geliştirme Standartlarının önemini anlamak.
+- İşletim sistemlerinde sunucu rollerinin çalıştırılmasını kavramak.
+- Sanallaştırma ve konteynerleştirmenin avantajlarını anlamak.
+- Bulut bilişimi, modelleri ve sertifikalarını kavramak.
+- Sürekli Entegrasyon stratejilerini ve araçlarını anlamak.
+- Teknolojik altyapı yönetimi ve güvenliğinin ilkelerini anlamak.
+- İzleme ve analiz araçlarıyla optimizasyonun önemini anlamak. 
 
 # Kazanımlar
 
 Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar için sağlam bir temel oluştururken, DevOps alanında uzmanlık kazanmak isteyenler için derin bir anlayışa sahip olacaklar. Kurs sonunda katılımcılar, projeleri yönetme, yazılım geliştirme standartlarına uygunluk sağlama, sürüm kontrolü yapma, sanallaştırma ve konteynerizasyonu anlama, bulut bilişimi kullanma ve uygulama ve altyapı izleme konularında derin bir anlayış ile yetkinlik kazanacaklar.
 
-# İçerik
+# DevOps Süreçleri
 
-## Modül 1: DevOps Süreçleri - Ölçeklenebilirlik ve Dönüşüm
+## Modül 1: Ölçeklenebilirlik ve Dönüşüm
 
-- DevOps Süreçleri Anlama
+- DevOps - Süreçleri Anlama
   - DevOps Nedir?
   - DevOps'un Faydaları!
   - DevOps Süreçleri
   - DevOps İşletim Bilgisi
-- DevOps Ölçeklenebilirlik
+- DevOps - Ölçeklenebilirlik
   - İş Süreçleri ve Ekip Ölçeklenebilirliği
   - Altyapı ölçeklenebilirliği
   - Uygulama Ölçeklenebilirliği
   - Veritabanı Ölçeklenebilirliği
-- DevOps Dönüşüm Yolculuğu
+- DevOps - Dönüşüm Yolculuğu
   - Kademeli Dönüşüm
   - Üst Yönetim Desteği
   - Zaman çizelgeleri
@@ -41,22 +47,38 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
 ## Modul 2 : Proje Yönetimi
 
 - İş Akışı Yönetimi
-  - İş Akışı Yönetimi ve Süreç Otomasyonu
+  - İş Akışı Yönetimi
+  - Süreç Otomasyonu
   - Dijital İş Akışı
-  - BPM ve RPA
+  - İş Süreçleri Yönetimi (BPM)
+  - Robotik Süreç Otomasyonu (RPA)
+  - İş Akış Yönetim Araçları
 - Ekip İşbirliği ve İletişim
+  - Slack
+  - Microsoft Teams
   - Confluence
-- Proje Yönetimi - Süreçler ve Araçlar
+- Proje Yönetim Süreçleri
+  - Proje Yönetimi
+  - Agile
+  - Scrum
+  - Kanban
+- Proje Yönetim Araçları
   - Jira
   - Azure DevOps
 
 ## Modul 3 : Sürüm Kontrolü - Barındırma ve Git
 
-- Git Barındırma - Yerel ve Bulut
+- Git Barındırma
+  - Yerel Barındırma
+  - Bulut Barındırma
+  - Barındırma Modeli
+- Git Barındırma Platformları
   - GitHub
-  - Azure DevOps / Server
   - Bitbucket
-  - Gitlab / Server
+  - Azure DevOps
+  - Azure DevOps Server
+  - Gitlab
+  - Gitlab Server
 - Git
   - Git - Dağıtık Sürüm Kontrolü
   - Git - Yapılandırma
@@ -67,12 +89,16 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Git Sürüm Kontrol - Dal Yönetimi
 - Git Fork
   - Proje Forklama
+  - Kopya Alma
   - Pull Talebi
+  - Birleştirme
   - Talep İnceleme ve Onay
+  - Teşekkürler ve Katkılar
 
 ## Modul 4 : Yazılım Geliştirme Standartları
 
 - Hızlı İterasyonunu Anlama
+- Programlama Dilleri
 - Yazılım Geliştirme Standartları
 - Yazılım Geliştirme iterasyonunu destekleyen araçlar
 
@@ -82,7 +108,7 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Visual Studio Code
   - Windows Powershell Komutları
   - Windows Powershell Komutları - Ağ Yapılandırması
-  - Hyper-V Sanallaştırma - Temeller ve Kullanım
+  - Hyper-V Sanallaştırma
   - IIS - Windows Tabanlı Web Hizmetleri
 - Linux İşletim Sistemi
   - Nano
@@ -118,6 +144,7 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Docker Compose
   - Docker Swarm
   - Kubernetes
+  - OpenShift
 - Sanallaştırma - Konteyner - Uygulama Senaryoları
   - Docker - Uygulama Senaryosu
   - Docker Compose - Uygulama Senaryosu
@@ -131,10 +158,10 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
 ## Modul 7 : Bulut Bilişim
 
 - Bulut Bilişim - Dağıtım Modelleri
-  - Özel Bulut (Private Cloud)
-  - Halka Açık Bulut (Public Cloud)
-  - Karma Bulut (Hybrid Cloud)
-  - Topluluk Bulut (Community Cloud)
+  - Özel Bulut
+  - Halka Açık Bulut
+  - Karma Bulut
+  - Topluluk Bulut
 - Bulut Bilişim - Hizmet Modelleri
   - Hizmet Olarak Altyapı (IaaS)
   - Hizmet Olarak Platform (PaaS)
@@ -146,8 +173,8 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Microsoft Azure
 - Bulut Bilişim - Sertifikasyonlar
   - AWS Certified
-  - Microsoft Certified
   - Google Cloud Certified
+  - Microsoft Certified
 
 ## Modul 8 : Sürekli Entegrasyon - Yöntemler ve Yaklaşımlar
 
@@ -166,12 +193,14 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Canlı Ortama Otomatik Yayın Yapmanın Riskleri ve İyileştirmeler
   - Sürekli Dağıtım Kullanım Senaryoları ve Kazanımları
   - Sürekli Dağıtım ve İş Akışları
-- Otomasyon Araçları ve İş Akışları Uygulama
+- Otomasyon Araçları ve İş Akışları
   - Jenksin
-  - GitLab
   - GitHub Actions
+  - Bitbucket
   - Azure DevOps
+  - GitLab
   - CircleCI
+  - GoCD
 
 ## Modul 9 : DevOps Alt Yapı Yönetimi
 
@@ -186,20 +215,21 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
   - Altyapı Otomasyonunun Uygulama Alanları
   - Kodlama Betikleri ve Kullanım Alanları
 - Altyapı Yönetimi Araçları
-  - Tanıtım ve Karşılaştırma
+  - Altyapı Yönetim Araçları Karşılaştırması ve Senaryolar
   - Terraform ile Altyapı Yönetimi
   - Ansible ile Otomasyon ve Konfigürasyon Yönetimi
-  - Chef ve Puppet ile Yapılandırma Yönetimi
+  - Chef ile Yapılandırma Yönetimi
+  - Puppet ile Yapılandırma Yönetimi
   - SaltStack ile Otomasyon ve İzleme
-  - Pulumi ile Altyapı Yönetimini Kodlama
+  - Pulumi ile Altyapı Yönetimi
 - Sürekli Dağıtım ve Entegrasyon
-  - Altyapı Yönetim Araçlarını Entegre Etme
-  - Sürekli Dağıtım Araçlarının Yapılandırılması ve Kullanımı
-  - Altyapı Değişikliklerinin Sürekli Dağıtım ile Yönetimi
+  - Altyapı Yönetim Araçlarının Entegre Edilmesi
+  - Sürekli Dağıtım Araçlarını Yapılandırma ve Kullanma
+  - Sürekli Dağıtım ile Altyapı Değişikliklerinin Yönetimi
 - Otomasyon ve İzleme
   - Otomasyonun İzlenmesi ve Denetlenmesi
   - Hataların Otomatik Tespiti ve Çözümü
-  - Verimlilik ve Güvenilirlik İçin İzleme Stratejileri
+  - Verimlilik ve Güvenirliğe Yönelik İzleme Stratejileri
 
 ## Modul 10 : Veri İzleme ve Analiz
 
@@ -238,9 +268,7 @@ Bu kursu tamamlayan katılımcılar, yazılım dünyasına yeni başlayanlar iç
 - Günlük ve Metrik İzleme - Bulut Tabanlı İzleme
   - Signoz
   - Datadog APM
-  - Azure Monitor
-  - Google Cloud Monitoring
   - Amazon CloudWatch
-
-| _Azmi ŞAHİN_ | _https://www.linkedin.com/in/azmisahin_ |
-| --- | --- |
+  - Google Cloud Monitoring
+  - Azure Monitor
+  
