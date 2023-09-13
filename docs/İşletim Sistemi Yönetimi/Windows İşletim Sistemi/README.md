@@ -4,7 +4,7 @@
 
 **İşletim Sistemi Performans Verileri**
 
-![Task Managaer](https://file.notion.so/f/s/a796c15f-4299-4747-a73b-bdc9d0cf62db/task-manager.png?id=ff5678dc-34db-4232-a864-a7f3cbc90f7d&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=4KVesqjmlL2B1MLADMMetf83bBsn-oL3PrlxR2zLSr0&downloadName=task-manager.png)
+![Windows Task Manager](https://i.imgur.com/OW1hv7n.png)
 
 Windows Task Manager, Microsoft Windows işletim sistemlerinde bulunan **bir sistem yönetim aracıdır**. Bu araç, kullanıcıların bilgisayarlarının **performansını** izlemelerine, çalışan uygulamaları ve işlemleri **yönetmelerine**, sistem kaynaklarını **izlemelerine** ve hatta sistem sorunlarını **teşhis** etmelerine yardımcı olur.
 
@@ -23,7 +23,7 @@ Visual Studio Code, hızlı bir şekilde **kodlamaya** başlamanıza yardımcı 
 
 - Canlı Ekip İşbirliği
 
-![Canlı Ekip İşbirliği](https://file.notion.so/f/s/2dc0c55c-f881-4ae8-a4dc-495a294441f4/vs-code-extensions-live-share.png?id=5f2926f5-76dd-45b9-8d9e-67c8ff6f9ea0&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=cp3qNjZV8_aJmwOCjek5htILcn2uBHfa41-2txnckMA&downloadName=vs-code-extensions-live-share.png)
+![Vs Code - Live Team Collaboration](https://i.imgur.com/hWyudbm.png)
 - Kaynak Kontrol
     
     [Git - Downloads](https://git-scm.com/download)
@@ -88,7 +88,7 @@ PowerShell'i anlamak için temel kavramları öğrenmek önemlidir. Cmdlet'ler (
 2. **PowerShell İçin Ortamı Hazırlama:**
 PowerShell, Windows işletim sistemlerinde genellikle varsayılan olarak kuruludur. **Başlat** menüsünden veya arama çubuğundan "**PowerShell**" yazarak PowerShell uygulamasını bulup açabilirsiniz.
 
-![PowerShell](https://file.notion.so/f/s/2ae89d0d-de9a-46c2-a371-e77f4b64a1a2/powershell.png?id=840a24ce-cc5f-4160-aa07-ba5806e0ae26&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=xqtxsQD2mc1BGy5pNyouVDsKQJ_U32Enqr-wRaZzfY0&downloadName=powershell.png)
+![PowerShell](https://i.imgur.com/KpFIdVF.png)
 
 **Temeller**
 
@@ -354,7 +354,7 @@ PowerShell'da betikler, `.ps1` uzantılı dosyalar olarak oluşturulan ve içind
 
 PowerShell ISE editörünün kullanarak yada farklı editörler yardımı ile oluşturabilirsiniz.
 
-![PowerShell-ISE](https://file.notion.so/f/s/46afda3f-aa41-4bcd-95dc-1ba9dd7f76fa/powershell-ISE.png?id=df67a664-7650-40cb-ad31-a24aba064c32&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=1TdbV0oWTcdE1BV3ZjhTKif_8o98git8zCzIOeRVnOs&downloadName=powershell-ISE.png)
+![PowerShell ISE](https://i.imgur.com/txHwhg2.png)
 
 Örneğin:
 
@@ -397,7 +397,7 @@ PowerShell'i anlamak için temel kavramları öğrenmek önemlidir. Cmdlet'ler (
 2. **PowerShell İçin Ortamı Hazırlama:**
 PowerShell, Windows işletim sistemlerinde genellikle varsayılan olarak kuruludur. **Başlat** menüsünden veya arama çubuğundan "**PowerShell**" yazarak PowerShell uygulamasını bulup açabilirsiniz.
     
-![PowerShell](https://file.notion.so/f/s/2ae89d0d-de9a-46c2-a371-e77f4b64a1a2/powershell.png?id=840a24ce-cc5f-4160-aa07-ba5806e0ae26&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=xqtxsQD2mc1BGy5pNyouVDsKQJ_U32Enqr-wRaZzfY0&downloadName=powershell.png)
+![PowerShell](https://i.imgur.com/KpFIdVF.png)
 
 **Test-NetConnection:**
 
@@ -642,18 +642,18 @@ Masaüstü bilgisayarlar ve dizüstü bilgisayarlar için **Windows**’un en so
 
 Gerekli indirmeler yapılacaktır.
 
-![Gerekli indirmeler](https://file.notion.so/f/s/67e9469f-9477-4791-9f37-c51ababcee39/Ubuntu.png?id=58c982f4-2884-41a6-ae20-906cd73b7a56&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=DiCqMnnPzOz5fpdKeO8nHCOPKY9gygW36q6LVfj0bkE&downloadName=Ubuntu.png)
+![Hyper-V - Virtual Machine Download Image](https://i.imgur.com/hgiYFKL.png)
 
 ***Tebrikler, yeni bir sanal makineniz var.** Artık işletim sistemini kullanmaya hazırsınız.*
 
-![created](https://file.notion.so/f/s/c8ad4f92-e726-4222-a1bd-abe217844622/created.png?id=e8e3f4e1-f715-447a-9ce5-f37951cd2510&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=hXs62d-0qxSf77HYm2SHYJNjRhioMmaxEJGOSK9wnaQ&downloadName=created.png)
+![Hyper-V Manager - Virtual Machine Created](https://i.imgur.com/TvZWXj5.png)
 
 "Connect" butonu ile sanal makinanıza bağlanabilirsiniz.
  
 
 Sanal makineniz şöyle görünmelidir:
 
-![hyper-v-on-ubuntu](https://file.notion.so/f/s/4a101c61-f9a7-4dfe-9f2c-d9cb1ed8f921/image.png?id=9053d05a-c9a5-4621-9c3a-b83af4c70892&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=vJIvtEtdM4Wt-g7R37MZzflLB6PwOeFSDTNv2mgiUlw&downloadName=image.png)
+![Ubuntu - System Configuration](https://i.imgur.com/JA3s0ah.png)
 
 Windows işletim sistemi içerisinde Ubuntu dağıtımı yapılandırmaya hazırsınız.
 
@@ -661,40 +661,41 @@ Devam edin ve ilk yapılandırma tanımlarını girin.
 
 **Klavye ayarlarınızı tanımlayın**.
 
-![klavye-tanımlarınızı-yapın](https://file.notion.so/f/s/347712a1-9ca1-48a5-a1c2-e604c1200496/klavye-tanmlarnz-yapn.png?id=67873e54-90f0-46f0-844d-4e7feb0a1c16&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=3fWfiS2-iBBFtdIZyAknpsCYl0KxTu5FKoqjxWqma6c&downloadName=klavye-tan%C4%B1mlar%C4%B1n%C4%B1z%C4%B1-yap%C4%B1n.png)
+![Ubuntu - Keyboard Settings](https://i.imgur.com/ocQFPfK.png)
+
 **Bölgenizi seçin**
 
-![bölgenizi seçin](https://file.notion.so/f/s/caa652fe-29ac-467d-ae73-c36bf72a10b9/blgenizi-kn.png?id=649a78be-d483-4b5d-8a84-48a791095ab4&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=fdURwxj4CW6xitVXS7A3AYgtdCacYvcnKsIE1NUonxU&downloadName=b%C3%B6lgenizi-%C3%A7%C4%B1k%C4%B1n.png)
+![Ubuntu - Select your location](https://i.imgur.com/mv1gtoD.png)
 
 **Sistem tanımlarınızı yapın.**
 
-![devops-vm](https://file.notion.so/f/s/91147edd-49ac-436c-a92c-3375f0cd6f54/devops-vm.png?id=f267d0b9-f154-4620-9834-efc9cdc2518f&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=1jtZ_5XkuhDGx-4V0Dv7LOWjDe2ldLMLX1K6rhqDcIk&downloadName=devops-vm.png)
+![Ubuntu - Define your hostname](https://i.imgur.com/gD06kHU.png)
 
 **Güncellemeleri alın.**
 
-![guncellemeler kontrol edilecektir](https://file.notion.so/f/s/77896ed8-fda4-4221-ad3b-38c2de1655f0/guncellemeler_kontrol_edilecektir..png?id=086f9a15-cc1a-4ada-bf34-a2aef4e03334&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=NsR5gbD7xbN95yGiTB6L8l46sHfmBNoWI_D1YVXY4ic&downloadName=guncellemeler+kontrol+edilecektir..png)
+![Ubuntu - Update](https://i.imgur.com/Dwv8H0M.png)
 
 **Oturum Açın**
 
-![erisim-bilgilerinizi-girin](https://file.notion.so/f/s/8ba170ec-1037-4284-8a30-31c9661eacb2/erisim-bilgilerinizi-girin.png?id=4de250ad-2980-4381-aeb5-e65e21c9b822&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=DCKX7zTc1021Yg1sQhxIs1SzubkdHJrKouymCGPrrlQ&downloadName=erisim-bilgilerinizi-girin.png)
+![Ubuntu - Login with xrdp](https://i.imgur.com/k3KryKX.png)
 
 **Makinanız şu an çalışmaktadır.**
 
 **Basit oturuma geçmek için**
 
-![basit oturum](https://file.notion.so/f/s/99d29aef-1ae9-4861-bd5a-ff6fc6f164c1/basit_oturum.png?id=9adc1d5a-f388-453f-998b-a3beb0a8e056&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=sFDr4cW_AgloL10TPRQ3f9hQYbiVQFUr1tO40ICy5SI&downloadName=basit+oturum.png)
+![Ubuntu - Select Basic Session](https://i.imgur.com/q0p4FvB.png)
 
 **Ubuntu Desktop a ulaşmış olacaksınız.**
 
-![ubuntu-hesap-tanımlama](https://file.notion.so/f/s/03d4191e-7fee-424e-b433-28df21cf8fd9/ubuntu-hesap-tanmlama_.png?id=decdc7dc-3dcb-4fe2-b697-c5f4c60b17d7&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=jtkq3A_54r-6oxQKmA8hAoBimpvg_UfhpZC0LkTtS_Y&downloadName=ubuntu-hesap-tan%C4%B1mlama+.png)
+![Ubuntu - Connect your online accounts](https://i.imgur.com/YTAWhtz.png)
 
 Bu adımları geçebilir yada tanımlayabilirsiniz.
 
-![güncellemeler-için - root parolası](https://file.notion.so/f/s/1a9c8a05-95c7-4a67-af04-0bffb2e5ec6b/gncellemeler-iin_-_root_parolas.png?id=fc19becd-69c2-4139-afde-ad78933c4c89&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=jXhAzwM1FQjn1mhN48NRFW2aQtHUoUOdRex1WW0_TrE&downloadName=g%C3%BCncellemeler-i%C3%A7in+-+root+parolas%C4%B1.png)
+![Ubuntu - Authentication Reuired](https://i.imgur.com/w79oema.png)
 
 **Güncellemeleri almak yada bir uygulama kurmak için belirlediğiniz parolayı girin.**
 
-![linux-dunyasına-hosgeldiniz](https://file.notion.so/f/s/b9962804-e4ab-4934-9b41-df2de1aac592/linux-dunyasna-hosgeldiniz.png?id=61f5adc8-531c-4760-8828-d7339ead2a00&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=HdEqLd7yECBY_jSmsBDED6nKkwS_YjD0mlaYWWaXjZs&downloadName=linux-dunyas%C4%B1na-hosgeldiniz.png)
+![Ubuntu - Desktop Welcome](https://i.imgur.com/p0hMA5u.png)
 
 **Linux dünyasına hoşgeldiniz.**
 
@@ -724,7 +725,7 @@ Terminal açıldığında, komutları yazarak sistemle etkileşime girebilirsini
 - **`nano`** veya **`vim`**: Metin düzenleyiciler, terminal üzerinden dosya oluşturmak ve düzenlemek için.
 - **`apt`** veya **`apt-get`**: Yazılım kurulumu, güncellemesi ve kaldırması için kullanılan paket yönetimi komutları.
     
-![ubuntu-terminal](https://file.notion.so/f/s/d7ed5dda-882b-450f-ba99-e940c1edf40f/ubuntu-terminal.png?id=7ecfe0d7-62ec-4904-9990-0061c7f279a2&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=8Bn7ZU6PtcWcjx3WL4NtWIyiqYYS6Ay-9m81-uZImVU&downloadName=ubuntu-terminal.png)
+![Ubuntu - Terminal](https://i.imgur.com/L4EDXB6.png)
 
 
 Resmi belgeler size kapsamlı bir rehberlik sunar. Başlangıç, gelişmiş ve uzman düzeyde bilgiler içerir.
@@ -767,7 +768,7 @@ Komut çalıştırıldıktan sonra IIS bileşenleri indirilir ve kurulum tamamla
     # Varsayılan web sitesi C:\inetpub\wwwroot klasöründe yer alır.
     ```
 
-   ![IIS Ready](https://file.notion.so/f/s/48d8a2a8-8495-43e5-8cf9-3db12219d049/iis-hazr.png?id=3b0faaa0-41bc-46ea-90ff-7f9ba0a2e875&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=CXzR0n0FYOZEY2zJD-sp6u0n1tWWhh-TqFP3YT2mHAw&downloadName=iis-haz%C4%B1r.png)
+   ![Windows - IIS](https://i.imgur.com/4cZEkrS.png)
    
 5. **IIS'i Yönetmek:**
 IIS'i yönetmek için PowerShell veya GUI tabanlı araçları kullanabilirsiniz. IIS Manager aracı genellikle GUI ile yönetmek için kullanılırken, PowerShell komutları ile de pek çok işlem yapabilirsiniz. Örneğin:
@@ -811,7 +812,7 @@ IIS'i yönetmek için PowerShell veya GUI tabanlı araçları kullanabilirsiniz.
     3. Tüm siteleri seçmek için Ctrl tuşuna basılı tutup tüm siteleri tıklayın veya durdurmak veya silmek istediğiniz siteleri tek tek seçin.
     4. Yukarıdaki menü çubuğunda "Durdur" seçeneğine tıklayarak seçtiğiniz siteleri durdurabilirsiniz. Aynı şekilde "Sil" seçeneği ile de silebilirsiniz.
         
-   ![IIS Manager](https://file.notion.so/f/s/05f4ca79-748a-4586-90da-88883d05697d/s-mANAGER.png?id=c95d4c37-4e81-439b-a0af-f131ab953b13&table=block&spaceId=38712923-4f67-4d8d-93e9-cef17da49862&expirationTimestamp=1693497600000&signature=NeTlqK7QU62hNJPfFhu8CvvSwLB42ow7OFkk1T6_k5s&downloadName=%C4%B1%C4%B1s-mANAGER.png)
+   ![Windows - IIS Manager](https://i.imgur.com/h7rs8aJ.png)
         
     
     ### **PowerShell Kullanarak Siteleri**
