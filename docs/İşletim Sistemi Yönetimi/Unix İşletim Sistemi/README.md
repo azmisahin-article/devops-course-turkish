@@ -1,14 +1,14 @@
 Orijinal Unix işletim sistemi temel alınarak geliştirilen ve özellikle sunucu sistemlerinde kullanılan bir işletim sistemi ailesidir. Birçok ticari ve açık kaynaklı Unix benzeri işletim sistemi bulunur.
 
-![JupTWln_qjpPZ0.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a22b9796-64eb-48d0-ac8a-9afc266bc5ff/JupTWln_qjpPZ0.jpg)
+[Unix](https://i.imgur.com/X0cdSgk.jpg)
 
 **macOS:** Apple'ın Mac bilgisayarları için geliştirdiği işletim sistemidir. BSD tabanlı bir Unix çekirdeği kullanır ve Apple'ın özel donanım ve yazılım entegrasyonu ile tanınır.
 
-!https://cdn.osxdaily.com/wp-content/uploads/2020/10/8-best-macos-big-sur-features-1.jpg
+![MacOS](https://i.imgur.com/yejVkEq.jpg)
 
 **Linux:** Özgür ve açık kaynaklı bir işletim sistemidir. Birçok farklı dağıtımı (Ubuntu, Fedora, Debian gibi) vardır ve çok çeşitli amaçlar için kullanılır. Sunucu sistemlerinden mobil cihazlara kadar geniş bir yelpazede kullanılır.
 
-![R.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7571b42-89bc-4aea-8806-78a881558c34/R.png)
+![Linux](https://i.imgur.com/JXg2hOm.png)
 
 **Linux**, Unix benzeri bir çekirdeğe dayanır. **Farklı dağıtımları** (Ubuntu, Fedora, Debian, CentOS gibi) vardır ve genellikle **özgür ve açık kaynaklıdır**. Linux, **hem masaüstü** **hem de sunucu** sistemleri için geniş bir kullanım alanına sahiptir.
 
@@ -28,7 +28,7 @@ Nano, basit ve kullanıcı dostu bir metin düzenleyicidir ve komut satırında 
 
 Başlatmak için bir terminal ekranı başlatın.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/59f1dca2-9ef4-4a22-b22c-467fba273840/Untitled.png)
+![Nano - terminal](https://i.imgur.com/byNMXRT.png)
 
  
 
@@ -40,7 +40,7 @@ nano
 
 **Nano metin düzenleyicisini kullanmak için komutla**r:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/f9da92e3-1871-4fd8-b080-ea4ad3ef9b96/Untitled.png)
+![Nano - Editor](https://i.imgur.com/dlnqtBH.png)
 
 1. Yardım Görüntülüme
     1. `**CTRL + G**` tuş kombinasyonu yardımı ile yardım içeriklerine oluşabilir ve nano ile ilgili tüm kısayol tuşlarını görüntüleyebilirsiniz.
@@ -58,7 +58,7 @@ nano
     2. Dosyayı farklı bir adla kaydetmek için **`Ctrl + O`** kullanın ve ardından yeni dosya adını girin.
     3. Dosyayı farklı bir adla kaydetmeden çıkmak için **`Ctrl + X`** tuşlarına basın.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/899794ff-21d8-43c9-afd3-2deab6ebd75f/Untitled.png)
+    ![Nano - CTRL - X](https://i.imgur.com/4fb3DJL.png)
     
 
 Bu temel komutlar, Nano'yu kullanmaya başlamak için yeterlidir. Klavye kısayolları, Nano'nun gücünü ve verimliliğini artıran önemli bir özelliktir. Kullanımı kolay olduğu için özellikle yeni başlayanlar için ideal bir metin düzenleyicidir.
@@ -769,7 +769,7 @@ Linux'ta ağ arabirimlerini kontrol etmek için **`ifconfig`** veya **`ip`** kom
 ip addr show
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/3acb2765-fcb5-4067-99ce-0ca72dd3b925/Untitled.png)
+![ip addr show](https://i.imgur.com/cOZrUXW.png)
 
 **Ağ Arabirimi Durumunu Kontrol Etme**
 
@@ -779,7 +779,7 @@ ip addr show eth0
 
 Genelde “UP” gib bir çıktı ile karşılaşırsınız.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/5e78b35b-03d3-414e-a465-6777505ae28b/Untitled.png)
+![state UP](https://i.imgur.com/45pYtLf.png)
 
 ---
 
@@ -823,7 +823,7 @@ sudo apt install net-tools
 ip link show
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/76347c53-2736-486f-aa91-82229a6ec636/Untitled.png)
+![ip link show](https://i.imgur.com/cOZrUXW.png)
 
 **Ağ Arayüzünü Etkinleştirme:**
 
@@ -843,7 +843,7 @@ ip link show eth0
 
 Bu komutun çıktısında, ağ arayüzünün durumu (**`UP`** veya **`DOWN`**) ve diğer bilgiler görüntülenecektir.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/6513577b-9345-4a1d-9075-b45a8df0c949/Untitled.png)
+![ip link show eth0](https://i.imgur.com/u5w1unM.png)
 
 **Ağ Arayüzünü Devre Dışı Bırakma:**
 
@@ -851,7 +851,7 @@ Bu komutun çıktısında, ağ arayüzünün durumu (**`UP`** veya **`DOWN`**) v
 sudo ip link set eth0 down
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/8cf43364-e33e-4026-b862-34f00f21894b/Untitled.png)
+![ip link set eth0 down](https://i.imgur.com/Nrx8kA5.png)
 
 **IP Adresi ve Subnet Mask Eklemek:**
 
@@ -859,7 +859,7 @@ sudo ip link set eth0 down
 sudo ip address add 192.168.1.100/24 dev eth0
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/2fbdc0cd-51e2-468b-b933-2a1a80bdc03e/Untitled.png)
+![ip address add 192.168.1.100/24 dev eth0](https://i.imgur.com/XidVQVZ.png)
 
 **IP Adresini Kaldırmak:**
 
@@ -875,7 +875,7 @@ ip link show eth0
 
 Terminal komut arabirimlerinde yapılan işlemlerinin, ubuntu arayüzündeki görünümü
 
-![ubuntu-network-ethernet.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/790b2e2c-2ba2-454a-a59e-0c1c3655800b/ubuntu-network-ethernet.png)
+![Ubuntu Network Connections _ Editing eth0](https://i.imgur.com/Ejm0NeW.png)
 
 **Ağ Yapılandırma Değişikliklerini Uygulama**
 
@@ -903,7 +903,7 @@ Yönlendirme tablosunu görüntüleme:
 ip route show
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/547ceda2-56c4-4c51-9a83-381dc613a860/Untitled.png)
+![ip route show](https://i.imgur.com/pVw2fpK.png)
 
 *Linux tabanlı sistemlerde geçerli olan yönlendirme tablosunu görüntüler. Bu komut, sistemdeki ağ trafiğinin nasıl yönlendirildiğini ve nereye gittiğini gösterir.*
 
@@ -927,7 +927,7 @@ Tüm ağ arabirimlerini görüntüleme:
 nmcli device show
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/75596c45-2092-4c48-b841-9fbdb9763cf0/Untitled.png)
+![nmcli device show](https://i.imgur.com/VETU6db.png)
 
 *NetworkManager aracılığıyla yönetilen ağ cihazlarının ayrıntılarını görüntüler. Bu komut, ağ arayüzlerini, IP adreslerini, durumlarını ve diğer ağ bağlantı bilgilerini gösterir.*
 
@@ -1066,7 +1066,7 @@ sudo ip route add default via 192.168.1.1
     sudo tcpdump -i eth0
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/c0d19e77-01ba-4039-b0ae-97295bbf05b5/Untitled.png)
+    ![sudo tcpdump -i eth0](https://i.imgur.com/ZvSHXzr.png)
     
     - **`i eth0`**: **`eth0`** ağ arabirimini izleme seçeneği. İzlemek istediğiniz ağ arabirimini seçebilirsiniz.
 2. **Belirli Bir Porttaki Trafiği İzleme:**
@@ -1114,13 +1114,13 @@ sudo ip route add default via 192.168.1.1
 7. **İzleme Sonuçlarını Dosyaya Kaydetme:**
     
     ```css
-    sudo tcpdump -i eth0 -w trafik.pcap
+    sudo tcpdump -i eth0 -w traffic.pcap
     ```
     
     - **`i eth0`**: **`eth0`** ağ arabirimini izleme seçeneği.
     - **`w trafik.pcap`**: İzleme sonuçlarını "trafik.pcap" adlı bir dosyaya kaydetme seçeneği. Bu PCAP formatında bir dosyadır ve daha sonra analiz için kullanılabilir.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/9c53bc48-1650-47fc-9441-56cd06bf1470/Untitled.png)
+    ![sudo tcpdump -i eth0 -w traffic](https://i.imgur.com/UIdCH5f.png)
     
 
 **`tcpdump`** ile daha fazla özelleştirilmiş izleme senaryoları ve filtrelemeler yapabilirsiniz. Ayrıca, paketleri daha detaylı bir şekilde analiz etmek için Wireshark gibi grafiksel araçlarla birlikte kullanabilirsiniz. Bu komutun kullanımı geniş bir konu olduğu için, ihtiyaçlarınıza ve ağ trafiğinizin yapısına göre filtreler oluşturabilirsiniz.
@@ -1131,7 +1131,7 @@ sudo ip route add default via 192.168.1.1
 
 - **`ping`**, **`traceroute`**, **`netstat`**, ve **`ss`** gibi komutları kullanarak ağ iletişimini kontrol etme ve hata ayıklamak.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/150c1b19-66ac-4a6e-b2b7-a8cda5313bf0/Untitled.png)
+![traceroute google.com](https://i.imgur.com/7mGSOSP.png)
 
 **Ağ Test Araçları**
 
@@ -1500,7 +1500,7 @@ sudo ufw status
 
 Bu komut, güvenlik duvarınızda hangi kuralların etkin olduğunu ve hangi portların açık veya kapalı olduğunu görüntüler. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/4c841046-bb99-4588-9664-73f716267c6e/Untitled.png)
+![sudo ufw status](https://i.imgur.com/J5GV98S.png)
 
 Çıktı, açık portların listesi ve izin verilen veya reddedilen kuralların durumunu içerecektir.
 
@@ -1770,7 +1770,7 @@ Bu adımlarla, seçtiğiniz güvenlik duvarı aracını kullanarak Linux sistemi
 
 SSH anahtarları, güvenli uzak erişim (SSH) protokolünün **kimlik doğrulama yöntemi** olarak kullanılan şifre yerine daha güvenli bir alternatiftir. SSH anahtarları, genellikle bir çift halinde gelir: özel anahtar (private key) ve genel anahtar (public key). Bu anahtarlar, ağa erişim sağlayan sistemler arasında kimlik doğrulama ve güvenli veri iletişimi için kullanılır.
 
-!https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg
+![Client server model](https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg)
 
 Anahtarların çalışma prensibi şu şekildedir:
 
@@ -1781,7 +1781,7 @@ SSH anahtarları, güvenlik sağlamanın yanı sıra, **otomatik giriş** ve **a
 
 Anahtar yönetimi ve güvenliği çok önemlidir. Anahtarlarınızı güvenli bir şekilde saklamalı, başkalarıyla paylaşmamalı ve şifrelemeli bir ortamda korumalısınız. Ayrıca, anahtarınızın şifrelenmesi ve bir parola ile korunması da iyi bir uygulamadır.
 
-!https://upload.wikimedia.org/wikipedia/commons/0/0f/Ssh_binary_packet_alt.svg
+![ssh binary packet](https://upload.wikimedia.org/wikipedia/commons/0/0f/Ssh_binary_packet_alt.svg)
 
 **SSH binary package**, genellikle SSH (Secure Shell) protokolünü uygulayan bir istemci yazılımının veya sunucu yazılımının derlenmiş ve paketlenmiş sürümünü ifade eder. SSH, güvenli bir şekilde **uzak erişim sağlamak ve dosya transferi yapmak** için kullanılan bir **kriptografik ağ protokolüdür.**
 
@@ -1951,7 +1951,7 @@ Bağlantı kurulduktan sonra (şunun gibi bir ekran ile karşılaşırsınız),
     
     komutları doğrudan uzaktaki sunucuda çalıştırabilirsiniz. 
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/c186b2fa-7f1d-44a4-8b22-6aad04bc1ca4/Untitled.png)
+    ![ssh devop@ops-VM](https://i.imgur.com/S4SgUEZ.png)
     
 4. **Bağlantıyı Sonlandırma:**
 İşiniz bittiğinde bağlantıyı sonlandırmak için terminalde **`exit`** komutunu kullanabilirsiniz.
@@ -2030,7 +2030,7 @@ Oluşturulan genel anahtarı, uzak sunucuya eklemeniz gerekmektedir. Bu, sunucun
     exit
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/22e802b3-ada8-4de7-b6b7-b6ea3255ee0a/Untitled.png)
+    ![echo ssh-rsa xxxx >> ~/.ssh/authorized_keys](https://i.imgur.com/uj4wwju.png)
     
     ```bash
     # uzak sunucuya bağlantısını test edin.
@@ -2096,7 +2096,7 @@ sudo apt update
 sudo apt install apache2
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/4082cbc9-21a1-405c-b3e1-9ad926b0a5fd/Untitled.png)
+![sudo apt install apache2](https://i.imgur.com/jAblZGb.png)
 
 ---
 
@@ -2107,7 +2107,7 @@ Apache kurulumunu tamamladıktan sonra, web sitelerini yönetmek için aşağıd
 - Web sitenizin dosyalarını genellikle **`/var/www/html`** dizininde barındırırsınız. Bu dizine web sayfalarınızı yükleyebilirsiniz.
 - Apache'nin ana konfigürasyon dosyası genellikle **`/etc/apache2/apache2.conf`**olarak bulunur. Burada **genel ayarlar** ve **sanal ana bilgisayarlar** (Virtual Hosts) gibi **yapılandırmaları** yapabilirsiniz.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/0ce88a46-8d57-4df4-bc4c-41186fd131ec/Untitled.png)
+![/etc/apache2/apache2.conf](https://i.imgur.com/wNTdqx7.png)
 
 ---
 
@@ -2117,11 +2117,11 @@ Apache, birden fazla web sitesini aynı sunucuda barındırmak için "Virtual Ho
 
 Örneğin Ubuntu tabanlı bir sistemde varsayılan siteler **`/etc/apache2/sites-available/000-default.conf`** dosyasında yer alır.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/dac01acf-3bd7-4a63-89dd-3b1d4f1c2572/Untitled.png)
+![/etc/apache2/sites-available/000-default.conf](https://i.imgur.com/6oifSzp.png)
 
 Sunucunun dinlediği portlar ise `**/etc/apache2/ports.conf`** dosyasında yer alır.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/5fdf0fa0-ee9c-477f-bf2f-4f2b85f95ad1/Untitled.png)
+![/etc/apache2/ports.conf](https://i.imgur.com/eGaZBZF.png)
 
 Sanal ana bilgisayar eklemek için örnek bir adım:
 
@@ -2214,7 +2214,7 @@ Aşağıdaki gibi bir çıktı görüntülüyor olmalısınız.
 /etc/apache2/ports.conf:Listen 443
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/54226be1-00c4-42dd-871c-f672c0426f2a/Untitled.png)
+![sudo grep -r "Listen" /etc/apache2](https://i.imgur.com/1psdqpV.png)
 
 **Servisi Yönetme**
 
@@ -2525,7 +2525,7 @@ Tomcat started.
 
 Tarayıcınızı açın ve **`http://localhost:8080`** adresine giderek **Tomcat yönetici arayüzüne** erişebilirsiniz.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/f8b9459f-ecb2-4328-ad80-20cdbd319051/Untitled.png)
+![Apache Tomcat](https://i.imgur.com/vhjWjL8.png)
 
 ---
 
@@ -2564,7 +2564,7 @@ Tarayıcınızı açın ve **`http://localhost:8080`** adresine gidin.
 
 Yönetici arayüzüne erişmek için kullanıcı adı ve şifrenizi (yukarıdaki adımlarda belirlediğiniz) girin.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38712923-4f67-4d8d-93e9-cef17da49862/4174308b-0737-4794-a3a2-dc1bd3575525/Untitled.png)
+![Apache Tomcat - Web Application Manager](https://i.imgur.com/LoHSEhs.png)
 
 Bu adımları takip ederek Tomcat yönetici arayüzüne başarılı bir şekilde giriş yapmalısınız.
 
